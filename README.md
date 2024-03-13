@@ -1,4 +1,4 @@
-# Olá, eu sou Sheyla Silvana Leão Sousa! 👋
+# Olá, eu sou Sheyla! 👋
 
 ## Desenvolvedora Full Stack
 
