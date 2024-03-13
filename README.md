@@ -1,42 +1,52 @@
-# Olá, eu sou Sheyla! 👋
+# Bem-vinda ao meu universo digital! ✨
 
-## Desenvolvedora Full Stack
+Eu sou Sheyla, uma artesã do código e arquiteta de soluções digitais que dá vida a sistemas web dinâmicos e envolventes.
 
-Tenho paixão por criar e manter sistemas web dinâmicos, responsivos e seguros. Meu arsenal inclui Git BASH, Angular, CSS, Spring Boot, Java, MySQL, SQL Server, Azure, Postman e Jira, e tenho expertise com metodologias ágeis e testes automatizados.
+## Quem sou eu? 🧍‍♀️
 
-🛠 **Habilidades Técnicas:**
-- Front-End: Angular, JavaScript, CSS, HTML, React.js, React Native
-- Back-End: Java, Node.js, Spring Boot, Express.js
-- Bancos de Dados: MongoDB, MySQL, SQL Server, Firebase
-- Outras: Git, GitHub, Azure, Postman, Jira, Confluence, Typescript, Python
+🔨 **Criadora versátil:** Transformo ideias em realidade digital com Angular e dou alma a dados com Spring Boot e Java.
+🎨 **Esteta do código:** Crio beleza funcional com CSS e esculpo interações com JavaScript.
+🚀 **Inovadora incansável:** Cada linha de código é uma chance de inovar e aprimorar.
+🤖 **Autômata ágil:** Fluentemente conversando com SQL Server no back-end e dançando com Azure na nuvem.
 
-📫 **Contato:**
-- Email: sheylasilvana18@gmail.com
-- Telefone: 86 9 8866-4906
+🎓 **Jornada acadêmica:**
+- Mestre das TICs pela UNOPAR
+- Bacharel em Sistemas de Informação pelo CEUPI
 
-🔗 **Conecte-se comigo:**
-- [GitHub](https://github.com/SheylaSilvana)
-- [LinkedIn](https://www.linkedin.com/in/sheylasilvana-4a7a861ab/)
+📈 **Experiência que conta:**
+- Desde 2023, criando e otimizando na AGUIA NET CONSULTORIA ESTRATEGIA LTDA
+- Anteriormente, inovando na MPTEK SOLUCOES LTDA
 
-## Cursos e Certificações:
-- GitLab, Modelagem de dados, UML, Teste e Validação, Colaboração em equipe.
-- Diversos cursos em desenvolvimento web e programação, incluindo Java completo e REST API's com Spring Boot.
+🤝 **Vamos fazer conexões que importam:**
+- Vamos conversar sobre inovações em [Email](mailto:sheylasilvana18@gmail.com) ou chame no zap (86) 9 8866-4906.
 
-## Minhas Estatísticas no GitHub
-![Sheyla Silvana's GitHub stats](https://github-readme-stats.vercel.app/api?username=SheylaSilvana&show_icons=true)
+## O que eu faço? 🔧
 
-## Linguagens e Ferramentas:
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-%236DB33F.svg?&style=for-the-badge&logo=spring&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?&style=for-the-badge&logo=angular&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white)
-![Nodejs](https://img.shields.io/badge/node.js-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-%23282C34.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB)
+`Angular` `Java` `Spring Boot` `Node.js` `MongoDB` `MySQL` `SQL Server` `Firebase` `Git` `GitHub` `Azure` `Postman` `Jira` `Confluence` `Typescript` `Python`
 
-**Fun fact:** Eu amo solucionar problemas complexos e sempre busco a excelência operacional e a satisfação do usuário em meus projetos.
+## Minhas Contribuições 📊
+
+<details>
+<summary>📈 Estatísticas do GitHub</summary>
+<br>
+<img src="https://github-readme-stats.vercel.app/api?username=SheylaSilvana&show_icons=true&theme=calm" alt="Sheyla's GitHub Stats">
+</details>
+
+<details>
+<summary>🔥 Streaks de Contribuições</summary>
+<br>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SheylaSilvana&theme=calm" alt="Sheyla's Contribution Streak">
+</details>
+
+## Educação Continuada 📚
+
+- 🗃️ Modelagem de dados com UML
+- 🧪 Teste e Validação para garantir qualidade
+- 🤖 Colaboração em equipe para uma sinergia perfeita
+- 🖥️ Cursos de desenvolvimento web e programação (Java, Spring Boot, REST API's)
+
+**Curiosidade sobre mim:** Adoro desvendar os enigmas da vida através da programação e sempre busco a excelência operacional e a satisfação do usuário em meus projetos.
 
 ---
 
-*Este perfil está sempre sendo atualizado com novos projetos e aprendizados. Fique à vontade para se conectar!*
+*Estou sempre ampliando meu repertório e explorando novas tecnologias. Se você está procurando alguém que transforma desafios em oportunidades, vamos conversar!*
