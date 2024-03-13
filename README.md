@@ -1,52 +1,37 @@
-# Bem-vinda ao meu universo digital! ✨
+# Olá, mundo! Eu sou Sheyla 👋
 
-Eu sou Sheyla, uma artesã do código e arquiteta de soluções digitais que dá vida a sistemas web dinâmicos e envolventes.
+Desenvolvedora Full Stack apaixonada por tecnologia, inovação e aprendizado contínuo.
 
-## Quem sou eu? 🧍‍♀️
+## Sobre Mim
 
-🔨 **Criadora versátil:** Transformo ideias em realidade digital com Angular e dou alma a dados com Spring Boot e Java.
-🎨 **Esteta do código:** Crio beleza funcional com CSS e esculpo interações com JavaScript.
-🚀 **Inovadora incansável:** Cada linha de código é uma chance de inovar e aprimorar.
-🤖 **Autômata ágil:** Fluentemente conversando com SQL Server no back-end e dançando com Azure na nuvem.
+🌟 Com experiência robusta em desenvolvimento front e back-end, crio soluções web completas.
+🎓 Pós-graduada em Computação e TIC pela UNOPAR e graduada em Sistemas de Informação pela Universidade Ceuma.
+💼 Atualmente, desenvolvendo sistemas para o Tribunal de Contas do Estado no AGUIA NET CONSULTORIA ESTRATEGIA LTDA.
 
-🎓 **Jornada acadêmica:**
-- Mestre das TICs pela UNOPAR
-- Bacharel em Sistemas de Informação pelo CEUPI
+## Conecte-se Comigo
 
-📈 **Experiência que conta:**
-- Desde 2023, criando e otimizando na AGUIA NET CONSULTORIA ESTRATEGIA LTDA
-- Anteriormente, inovando na MPTEK SOLUCOES LTDA
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sheylasilvana-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sheyla-silvana-4a7a861ab/)
 
-🤝 **Vamos fazer conexões que importam:**
-- Vamos conversar sobre inovações em [Email](mailto:sheylasilvana18@gmail.com) ou chame no zap (86) 9 8866-4906.
+## Tecnologias e Ferramentas
 
-## O que eu faço? 🔧
+![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java)
+![Spring](https://img.shields.io/badge/-Spring-6DB33F?style=flat-square&logo=spring)
+![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular)
+![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
+![Azure](https://img.shields.io/badge/-Azure-0089D6?style=flat-square&logo=microsoftazure)
 
-`Angular` `Java` `Spring Boot` `Node.js` `MongoDB` `MySQL` `SQL Server` `Firebase` `Git` `GitHub` `Azure` `Postman` `Jira` `Confluence` `Typescript` `Python`
+## Estatísticas
 
-## Minhas Contribuições 📊
+![Sheyla's GitHub stats](https://github-readme-stats.vercel.app/api?username=SheylaSilvana&show_icons=true&theme=vue)
 
-<details>
-<summary>📈 Estatísticas do GitHub</summary>
-<br>
-<img src="https://github-readme-stats.vercel.app/api?username=SheylaSilvana&show_icons=true&theme=calm" alt="Sheyla's GitHub Stats">
-</details>
+## Projetos Recentes
 
-<details>
-<summary>🔥 Streaks de Contribuições</summary>
-<br>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SheylaSilvana&theme=calm" alt="Sheyla's Contribution Streak">
-</details>
-
-## Educação Continuada 📚
-
-- 🗃️ Modelagem de dados com UML
-- 🧪 Teste e Validação para garantir qualidade
-- 🤖 Colaboração em equipe para uma sinergia perfeita
-- 🖥️ Cursos de desenvolvimento web e programação (Java, Spring Boot, REST API's)
-
-**Curiosidade sobre mim:** Adoro desvendar os enigmas da vida através da programação e sempre busco a excelência operacional e a satisfação do usuário em meus projetos.
+<-- Adicione aqui links ou imagens dos seus projetos mais recentes -->
 
 ---
 
-*Estou sempre ampliando meu repertório e explorando novas tecnologias. Se você está procurando alguém que transforma desafios em oportunidades, vamos conversar!*
+✉️ Entre em contato: [sheylasilvana18@gmail.com](mailto:sheylasilvana18@gmail.com)
+📞 Telefone: (86) 9 8866-4906
+
