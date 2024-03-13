@@ -10,9 +10,6 @@ Tenho paixão por criar e manter sistemas web dinâmicos, responsivos e seguros.
 - Bancos de Dados: MongoDB, MySQL, SQL Server, Firebase
 - Outras: Git, GitHub, Azure, Postman, Jira, Confluence, Typescript, Python
 
-💼 **Buscando Novas Oportunidades:**
-Estou em busca de uma nova oportunidade para desenvolver ainda mais meus conhecimentos em uma empresa conceituada, onde possa contribuir para meu crescimento profissional e o sucesso da organização.
-
 📫 **Contato:**
 - Email: sheylasilvana18@gmail.com
 - Telefone: 86 9 8866-4906
