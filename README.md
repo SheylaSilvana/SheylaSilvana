@@ -1,37 +1,33 @@
 # Olá, mundo! Eu sou Sheyla 👋
 
-Desenvolvedora Full Stack apaixonada por tecnologia, inovação e aprendizado contínuo.
+Desenvolvedora Full Stack com uma paixão incansável por criar soluções web elegantes e poderosas.
 
 ## Sobre Mim
 
-🌟 Com experiência robusta em desenvolvimento front e back-end, crio soluções web completas.
-🎓 Pós-graduada em Computação e TIC pela UNOPAR e graduada em Sistemas de Informação pela Universidade Ceuma.
-💼 Atualmente, desenvolvendo sistemas para o Tribunal de Contas do Estado no AGUIA NET CONSULTORIA ESTRATEGIA LTDA.
+✨ Apaixonada por desafios que estimulam minha criatividade e me permitem aplicar minha expertise em tecnologia para resolver problemas complexos.
+
+🔧 Ferramentas e linguagens não são apenas habilidades, são meus pincéis e tintas na arte do desenvolvimento de software.
+
+🌐 Busco sempre construir sistemas que não só funcionem, mas encantem e facilitem a vida das pessoas.
 
 ## Conecte-se Comigo
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sheylasilvana-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sheyla-silvana-4a7a861ab/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheyla-silvana-4a7a861ab/)
+[![Gmail](https://img.shields.io/badge/Gmail-%23EA4335.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:sheylasilvana18@gmail.com)
 
 ## Tecnologias e Ferramentas
 
-![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java)
-![Spring](https://img.shields.io/badge/-Spring-6DB33F?style=flat-square&logo=spring)
-![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular)
-![MySQL](https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql)
-![Azure](https://img.shields.io/badge/-Azure-0089D6?style=flat-square&logo=microsoftazure)
+![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Spring](https://img.shields.io/badge/-Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Angular](https://img.shields.io/badge/-Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/-React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ## Estatísticas
 
-![Sheyla's GitHub stats](https://github-readme-stats.vercel.app/api?username=SheylaSilvana&show_icons=true&theme=vue)
-
-## Projetos Recentes
-
-<-- Adicione aqui links ou imagens dos seus projetos mais recentes -->
-
----
-
-✉️ Entre em contato: [sheylasilvana18@gmail.com](mailto:sheylasilvana18@gmail.com)
-📞 Telefone: (86) 9 8866-4906
-
+![Sheyla's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SheylaSilvana&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SheylaSilvana&layout=compact&theme=tokyonight)
