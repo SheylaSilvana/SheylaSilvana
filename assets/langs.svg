@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="157" viewBox="0 0 360 157">
+<style>
+.tt{font:600 18px 'Segoe UI',Ubuntu,Sans-Serif;fill:#70a5fd}
+.tx{font:400 12px 'Segoe UI',Ubuntu,Sans-Serif;fill:#a9b1d6}
+</style>
+<rect width="100%" height="100%" rx="6" fill="#1a1b27"/>
+<text x="25" y="35" class="tt">Linguagens mais usadas</text>
+<clipPath id="arredonda"><rect x="25" y="50" width="310" height="8" rx="4"/></clipPath>
+<g clip-path="url(#arredonda)"><rect x="25.0" y="50" width="142.5" height="8" fill="#3572A5"/><rect x="167.5" y="50" width="124.0" height="8" fill="#4F5D95"/><rect x="291.5" y="50" width="32.4" height="8" fill="#3178c6"/><rect x="323.9" y="50" width="3.7" height="8" fill="#e34c26"/><rect x="327.5" y="50" width="2.9" height="8" fill="#384d54"/><rect x="330.4" y="50" width="2.7" height="8" fill="#f1e05a"/></g>
+<circle cx="30" cy="81" r="5" fill="#3572A5"/><text x="41" y="85" class="tx">Python 46.0%</text><circle cx="190" cy="81" r="5" fill="#4F5D95"/><text x="201" y="85" class="tx">PHP 40.0%</text><circle cx="30" cy="105" r="5" fill="#3178c6"/><text x="41" y="109" class="tx">TypeScript 10.5%</text><circle cx="190" cy="105" r="5" fill="#e34c26"/><text x="201" y="109" class="tx">HTML 1.2%</text><circle cx="30" cy="129" r="5" fill="#384d54"/><text x="41" y="133" class="tx">Dockerfile 0.9%</text><circle cx="190" cy="129" r="5" fill="#f1e05a"/><text x="201" y="133" class="tx">JavaScript 0.9%</text>
+</svg>

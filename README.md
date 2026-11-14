@@ -145,6 +145,11 @@ Software house de Teresina/PI com produtos SaaS próprios. Com atuação full st
 ## 📊 Estatísticas
 
 <p align="center">
+  <img height="180" src="./assets/stats.svg" alt="Estatísticas" />
+  <img height="180" src="./assets/langs.svg" alt="Linguagens" />
+</p>
+
+<p align="center">
   <img src="https://streak-stats.demolab.com?user=SheylaSilvana&theme=tokyonight&hide_border=true&locale=pt_BR" alt="Sequência de contribuições" />
 </p>
 
