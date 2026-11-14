@@ -21,7 +21,7 @@ Hoje trabalho na GW e na Unimed, mais no backend: APIs, integrações entre sist
 
 Também tô fazendo pós em Machine Learning Engineering na FIAP, então os projetos públicos mais recentes aqui são de lá.
 
-<img align="right" width="150" src="https://media.giphy.com/media/1jJFBBzJsnMn1xi6S7/giphy.gif" alt="Luffy sorrindo" />
+<img align="right" width="200" src="https://media.giphy.com/media/T7Qx28nEdo9NK/giphy.gif" alt="Luffy sorrindo" />
 
 Fora do código, sou viciada em One Piece. Pode puxar assunto 🏴‍☠️
 
