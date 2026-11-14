@@ -62,8 +62,6 @@ Software house aqui de Teresina. Trabalhei principalmente no Classecon, um siste
   <img src="https://skillicons.dev/icons?i=php,laravel,java,spring,nodejs,python,fastapi,mysql,postgres,mongodb,redis,react,ts,angular,docker,aws,gitlab,git&perline=9" alt="Tecnologias" />
 </p>
 
-<img src="./assets/atividade.svg" alt="Contribuições nos últimos 31 dias" width="100%" />
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/cobra.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/cobra-clara.svg" />
