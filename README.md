@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:3b4b8a,100:7aa2f7&height=200&section=header&text=Sheyla%20Silvana&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Backend%20%E2%80%A2%20Mobile%20%E2%80%A2%20Dados%20%26%20IA&descSize=18&descAlignY=58&animation=fadeIn" alt="Sheyla Silvana" width="100%" />
+  <img src="./assets/banner.svg" alt="Sheyla Silvana" width="100%" />
 </p>
 
 <!-- Texto animado -->
@@ -155,5 +155,5 @@ Software house de Teresina/PI com produtos SaaS próprios. Com atuação full st
 
 <!-- Rodapé -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:3b4b8a,100:1a1b27&height=110&section=footer" alt="" width="100%" />
+  <img src="./assets/footer.svg" alt="" width="100%" />
 </p>
