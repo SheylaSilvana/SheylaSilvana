@@ -1,159 +1,50 @@
-<!-- Banner -->
 <p align="center">
   <img src="./assets/header.svg" alt="Sheyla Silvana" width="100%" />
 </p>
 
-<!-- Texto animado -->
-<p align="center">
-  <a href="https://github.com/SheylaSilvana">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=7AA2F7&center=true&vCenter=true&width=560&lines=Desenvolvedora+de+software;APIs+e+integra%C3%A7%C3%B5es+entre+sistemas;Apps+mobile+publicados+nas+lojas;P%C3%B3s+em+Machine+Learning+Engineering+na+FIAP" alt="Texto animado" />
-  </a>
-</p>
-
-<!-- Contato -->
 <p align="center">
   <a href="https://www.linkedin.com/in/sheyla-silvana-4a7a861ab/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:sheylasilvana18@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <img src="https://komarev.com/ghpvc/?username=SheylaSilvana&color=7aa2f7&style=for-the-badge&label=VISITAS" alt="Visitas ao perfil" />
 </p>
 
----
+Oi! Sou a Sheyla, dev de Teresina (PI).
 
-## 👩‍💻 Sobre mim
+Hoje trabalho na GW e na Unimed, mais no backend: APIs, integrações entre sistemas e muito SQL no Oracle. Antes passei uns bons anos fazendo de tudo um pouco (web, app, backend) e peguei gosto por entender o problema até o fim, inclusive conferindo no banco se o que eu fiz funcionou mesmo.
 
-Desenvolvedora de software com foco em **backend, integrações entre sistemas e dados**. Atualmente trabalho na GW e na Unimed e faço pós em Machine Learning Engineering na FIAP.
+Também tô fazendo pós em Machine Learning Engineering na FIAP, então os projetos públicos mais recentes aqui são de lá.
 
-Gosto de construir sistemas que funcionam bem em produção: integrações confiáveis, rotinas que se recuperam de falhas e consultas rápidas, sempre medindo o resultado antes de dar o trabalho por concluído.
+## Onde trabalho / trabalhei
 
-- 🏥 Hoje desenvolvo APIs de cobrança e integração na área da **saúde**
-- 📱 Já publiquei e mantive **apps na App Store e no Google Play**
-- 🤖 Estudando **ML Engineering**: modelos em produção, APIs e monitoramento
-- 💬 Pode me perguntar sobre **PHP/Laravel, Oracle, React Native, integrações e n8n**
-
----
-
-## 💼 Experiência
-
-<details open>
-<summary><b>GW</b> · Desenvolvedora Sênior</summary>
-<br>
+**GW** · Desenvolvedora Sênior
 
 <!-- TODO: preencher com o resumo da GW -->
-*Em breve.*
+_(em breve)_
 
-</details>
+**Unimed** · Desenvolvedora Plena
 
-<details open>
-<summary><b>Unimed</b> · Desenvolvedora Plena</summary>
-<br>
+Faço APIs que ligam o sistema de gestão da operadora com cobrança e com os apps e portais de beneficiários e cooperados. Uma das coisas mais legais que fiz lá foi migrar uma integração de cobrança que rodava num sistema legado para uma API nova, sem parar a operação. Também cuido das rotinas automáticas de envio e baixa de títulos, e de vez em quando caço consulta lenta no Oracle.
 
-APIs de backend para uma operadora de planos de saúde, integrando o sistema de gestão hospitalar, as plataformas de cobrança e os apps e portais de beneficiários e cooperados.
+<sub>PHP 8, Laravel, Lumen, Oracle PL/SQL, PostgreSQL, Redis, Docker, GitLab CI, n8n</sub>
 
-- Liderei a migração de uma integração crítica de cobrança de um sistema legado para uma nova API, sem interromper a operação e com a mesma regra para duas operadoras.
-- Construí rotinas automáticas de envio, conciliação e baixa de títulos financeiros, com histórico de cada envio e tratamento de falhas e reenvios.
-- Investiguei e corrigi a qualidade dos dados entre sistemas e acelerei consultas pesadas no Oracle, validando os ganhos direto no banco.
+**Classetech** · Desenvolvedora de Aplicativos Móveis · abr/2024 a out/2026
 
-`PHP 8` `Laravel` `Lumen` `Oracle PL/SQL` `PostgreSQL` `Redis` `Docker` `GitLab CI/CD` `n8n` `PHPUnit` `DDD`
+Software house aqui de Teresina. Trabalhei principalmente no Classecon, um sistema de gestão de condomínios, onde fiz o portal web praticamente sozinha. Lá entreguei coisas como assembleia virtual com votação, controle de acesso da portaria e o fluxo de multa por infração ao regimento (esse deu trabalho, tinha regra pra todo lado). Também mexi nos apps em React Native/Expo, publiquei nas lojas, montei uma base white label pra gerar apps de marcas diferentes e integrei uma assistente de IA no WhatsApp com n8n.
 
-</details>
+<sub>React, TypeScript, React Native, Expo, PHP (CodeIgniter), Laravel, MySQL, AWS, n8n</sub>
 
-<details>
-<summary><b>Classetech</b> · Desenvolvedora de Aplicativos Móveis · abr/2024 – out/2026</summary>
-<br>
+## Projetos da pós (FIAP)
 
-Software house de Teresina/PI com produtos SaaS próprios. Com atuação full stack (web, mobile, backend, banco e automação com IA), trabalhei principalmente no **Classecon**, plataforma de gestão de condomínios usada por administradoras, e também no **Classeloc** (vistoria de imóveis com fotos, mapa e assinatura digital) e no **Classelog** (logística de entregas).
+- [**tech-challenge-petr4-lstm**](https://github.com/SheylaSilvana/tech-challenge-petr4-lstm): LSTM pra prever o preço da PETR4, com API em FastAPI, Docker e monitoramento no Prometheus/Grafana.
+- [**tech-challenge-bovespa-pipeline**](https://github.com/SheylaSilvana/tech-challenge-bovespa-pipeline): pipeline de dados da B3 na AWS (S3, Lambda, Glue e Athena).
+- [**tech-challenge-flight-delays**](https://github.com/SheylaSilvana/tech-challenge-flight-delays): modelos pra prever atraso de voos nos EUA, com uns 5,8 milhões de registros.
 
-- Desenvolvi sozinha o portal web do Classecon, do layout à integração com a API, com perfis para síndico, condômino, administradora e funcionário.
-- Implementei fluxos de ponta a ponta (frontend, backend e banco), como assembleia virtual com votação, processo de infração ao regimento, controle de acesso de pedestres e veículos e monitoramento de reservatórios com alertas.
-- Integrei a **LYA**, assistente de IA com RAG no WhatsApp orquestrada em n8n.
-- Criei a base **white label** que gera apps de marcas diferentes a partir de um único código.
-- Mantive os apps mobile atualizados na App Store e no Google Play, com upgrades do Expo e adequação ao Android 16.
+## O que eu uso
 
-`React` `TypeScript` `Chakra UI` `Cypress` `React Native` `Expo` `PHP` `CodeIgniter` `Laravel` `MySQL` `MongoDB` `AWS S3/SES` `n8n` `LLM/RAG`
-
-<table>
-  <tr>
-    <td align="center"><b>290+</b><br><sub>commits</sub></td>
-    <td align="center"><b>10</b><br><sub>repositórios</sub></td>
-    <td align="center"><b>4</b><br><sub>produtos</sub></td>
-    <td align="center"><b>2,5</b><br><sub>anos</sub></td>
-  </tr>
-</table>
-
-</details>
-
----
-
-## 🚀 Projetos em destaque
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/SheylaSilvana/tech-challenge-petr4-lstm">📈 PETR4 LSTM</a></h3>
-      Modelo LSTM para prever o preço da PETR4, servido com FastAPI e Docker e monitorado com Prometheus e Grafana.
-      <br><br>
-      <code>Python</code> <code>TensorFlow</code> <code>FastAPI</code> <code>Docker</code> <code>Prometheus</code>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/SheylaSilvana/tech-challenge-bovespa-pipeline">🏦 Pipeline Bovespa</a></h3>
-      Pipeline de dados da B3 na AWS: coleta com web scraping, ingestão no S3, ETL com Glue disparado por Lambda e consultas no Athena.
-      <br><br>
-      <code>Python</code> <code>AWS S3</code> <code>Lambda</code> <code>Glue</code> <code>Athena</code>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/SheylaSilvana/tech-challenge-flight-delays">✈️ Atrasos de voos</a></h3>
-      Pipeline de ML para prever atrasos de cerca de 5,8 milhões de voos nos EUA, com classificação, regressão e clusterização.
-      <br><br>
-      <code>Python</code> <code>scikit-learn</code> <code>Jupyter</code>
-    </td>
-  </tr>
-</table>
-
-<sub>Projetos da FIAP PosTech · Machine Learning Engineering</sub>
-
----
-
-## 🛠️ Stack
-
-<p align="center"><b>Backend</b><br><br>
-  <img src="https://skillicons.dev/icons?i=php,laravel,java,spring,nodejs,python,fastapi&perline=7" alt="Backend" />
+<p>
+  <img src="https://skillicons.dev/icons?i=php,laravel,java,spring,nodejs,python,fastapi,mysql,postgres,mongodb,redis,react,ts,angular,docker,aws,gitlab,git&perline=9" alt="Tecnologias" />
 </p>
 
-<p align="center"><b>Bancos de dados</b><br><br>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&perline=7" alt="Bancos de dados" />
-  <br>
-  <img src="https://img.shields.io/badge/Oracle_PL%2FSQL-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle" />
-</p>
-
-<p align="center"><b>Frontend e mobile</b><br><br>
-  <img src="https://skillicons.dev/icons?i=react,ts,angular,cypress&perline=7" alt="Frontend e mobile" />
-  <br>
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
-  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
-</p>
-
-<p align="center"><b>Infra, automação e IA</b><br><br>
-  <img src="https://skillicons.dev/icons?i=docker,aws,gitlab,git,prometheus&perline=7" alt="Infra" />
-  <br>
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
-  <img src="https://img.shields.io/badge/LLM_%2F_RAG-412991?style=flat-square&logo=openai&logoColor=white" alt="LLM e RAG" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
-</p>
-
----
-
-## 📊 Estatísticas
-
-<p align="center">
-  <img height="180" src="./assets/stats.svg" alt="Estatísticas" />
-  <img height="180" src="./assets/langs.svg" alt="Linguagens" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=SheylaSilvana&theme=tokyonight&hide_border=true&locale=pt_BR" alt="Sequência de contribuições" />
-</p>
-
-<!-- Rodapé -->
-<p align="center">
-  <img src="./assets/footer.svg" alt="" width="100%" />
+<p>
+  <img height="170" src="./assets/stats.svg" alt="Estatísticas" />
+  <img height="170" src="./assets/langs.svg" alt="Linguagens" />
 </p>
