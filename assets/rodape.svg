@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="120" viewBox="0 0 854 120">
+  <defs>
+    <linearGradient id="m1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d5bb8"/><stop offset="1" stop-color="#1a2a5e"/>
+    </linearGradient>
+    <linearGradient id="m2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5677d6"/><stop offset="1" stop-color="#22336e"/>
+    </linearGradient>
+    <style>
+      .onda-fundo { animation: corre 14s linear infinite; }
+      .onda-frente { animation: corre 9s linear infinite; }
+      @keyframes corre { from { transform: translateX(0); } to { transform: translateX(-854px); } }
+
+      .viagem { animation: navega 22s linear infinite; }
+      @keyframes navega { from { transform: translateX(-140px); } to { transform: translateX(900px); } }
+      .barco { animation: balanca 3.5s ease-in-out infinite; transform-origin: 50px 62px; }
+      @keyframes balanca {
+        0%, 100% { transform: translateY(0) rotate(-3deg); }
+        50% { transform: translateY(4px) rotate(3deg); }
+      }
+      .bandeira { animation: tremula 1.2s ease-in-out infinite; transform-origin: 52px 0px; }
+      @keyframes tremula { 0%, 100% { transform: scaleX(1); } 50% { transform: scaleX(0.8); } }
+      .txt { font: 400 13px 'Segoe UI', Ubuntu, sans-serif; fill: #8b95b8; }
+    </style>
+  </defs>
+
+  <text x="427" y="22" text-anchor="middle" class="txt">obrigada pela visita · até a próxima ilha</text>
+
+  <g class="onda-fundo">
+    <path fill="url(#m1)" opacity="0.8" d="M0 80 Q 53 68 107 80 T 213 80 T 320 80 T 427 80 T 534 80 T 640 80 T 747 80 T 854 80 T 961 80 T 1067 80 T 1174 80 T 1281 80 T 1388 80 T 1494 80 T 1601 80 T 1708 80 V 120 H 0 Z"/>
+  </g>
+
+  <g class="viagem">
+    <g transform="translate(0 20)">
+      <g class="barco">
+        <path d="M10 56 L90 56 L80 72 L20 72 Z" fill="#8b5a2b"/>
+        <path d="M10 56 L90 56 L88 60 L12 60 Z" fill="#a8703a"/>
+        <rect x="48" y="0" width="3" height="56" fill="#6b4423"/>
+        <path d="M51 10 Q 80 26 51 50 Z" fill="#f2efe6"/>
+        <path d="M48 14 Q 26 28 48 46 Z" fill="#e4dfd2"/>
+        <path class="bandeira" d="M51 -4 L70 1 L51 6 Z" fill="#e0475b"/>
+      </g>
+    </g>
+  </g>
+
+  <g class="onda-frente">
+    <path fill="url(#m2)" d="M0 94 Q 53 84 107 94 T 213 94 T 320 94 T 427 94 T 534 94 T 640 94 T 747 94 T 854 94 T 961 94 T 1067 94 T 1174 94 T 1281 94 T 1388 94 T 1494 94 T 1601 94 T 1708 94 V 120 H 0 Z"/>
+  </g>
+</svg>

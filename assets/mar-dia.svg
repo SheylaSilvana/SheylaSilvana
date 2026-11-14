@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="220" viewBox="0 0 854 220">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc3ec"/>
+      <stop offset="0.65" stop-color="#cfe6f7"/>
+      <stop offset="1" stop-color="#f3f8fc"/>
+    </linearGradient>
+    <linearGradient id="mar1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5aa3d8"/>
+      <stop offset="1" stop-color="#2f6fae"/>
+    </linearGradient>
+    <linearGradient id="mar2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f8ccf"/>
+      <stop offset="1" stop-color="#235a96"/>
+    </linearGradient>
+    <radialGradient id="brilho" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .sol { animation: pulsa 5s ease-in-out infinite; transform-origin: 780px 46px; }
+      @keyframes pulsa { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+
+      .nuvem1 { animation: nuvem 40s linear infinite; }
+      .nuvem2 { animation: nuvem 55s linear infinite; animation-delay: -20s; }
+      @keyframes nuvem { from { transform: translateX(0); } to { transform: translateX(-1000px); } }
+
+      .gaivota { animation: voa 3s ease-in-out infinite; }
+      .g2 { animation-delay: 0.6s; }
+      @keyframes voa { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+
+      .onda-fundo { animation: corre 14s linear infinite; }
+      .onda-frente { animation: corre 9s linear infinite; }
+      @keyframes corre { from { transform: translateX(0); } to { transform: translateX(-854px); } }
+
+      .barco { animation: balanca 4s ease-in-out infinite; transform-origin: 690px 160px; }
+      @keyframes balanca {
+        0%, 100% { transform: translateY(0) rotate(-3deg); }
+        50% { transform: translateY(5px) rotate(3deg); }
+      }
+      .bandeira { animation: tremula 1.2s ease-in-out infinite; transform-origin: 692px 78px; }
+      @keyframes tremula { 0%, 100% { transform: scaleX(1); } 50% { transform: scaleX(0.8); } }
+
+      .nome { font: 700 46px 'Segoe UI', Ubuntu, sans-serif; fill: #1b2b4a; animation: aparece 1.2s ease-out both; }
+      .sub { font: 400 17px 'Segoe UI', Ubuntu, sans-serif; fill: #34507a; animation: aparece 1.2s ease-out 0.4s both; }
+      @keyframes aparece { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+  </defs>
+
+  <rect width="854" height="220" fill="url(#ceu)"/>
+
+  <!-- sol -->
+  <circle cx="780" cy="46" r="42" fill="url(#brilho)"/>
+  <circle class="sol" cx="780" cy="46" r="18" fill="#ffd166"/>
+
+  <!-- nuvens -->
+  <g class="nuvem1" fill="#ffffff" opacity="0.9">
+    <g transform="translate(560 40)">
+      <ellipse cx="0" cy="0" rx="34" ry="12"/><ellipse cx="22" cy="-8" rx="20" ry="12"/><ellipse cx="-16" cy="-6" rx="16" ry="10"/>
+    </g>
+    <g transform="translate(1180 30)">
+      <ellipse cx="0" cy="0" rx="30" ry="10"/><ellipse cx="18" cy="-7" rx="18" ry="11"/>
+    </g>
+  </g>
+  <g class="nuvem2" fill="#ffffff" opacity="0.75">
+    <g transform="translate(330 62)">
+      <ellipse cx="0" cy="0" rx="26" ry="9"/><ellipse cx="16" cy="-6" rx="15" ry="9"/>
+    </g>
+    <g transform="translate(980 54)">
+      <ellipse cx="0" cy="0" rx="36" ry="12"/><ellipse cx="22" cy="-9" rx="20" ry="12"/><ellipse cx="-18" cy="-6" rx="15" ry="9"/>
+    </g>
+  </g>
+
+  <!-- gaivotas -->
+  <path class="gaivota" d="M600 92 q6 -6 12 0 q6 -6 12 0" fill="none" stroke="#34507a" stroke-width="1.8" stroke-linecap="round"/>
+  <path class="gaivota g2" d="M628 78 q5 -5 10 0 q5 -5 10 0" fill="none" stroke="#34507a" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- texto -->
+  <text x="40" y="92" class="nome">Sheyla Silvana</text>
+  <text x="42" y="122" class="sub">backend · mobile · dados &amp; IA · Teresina, PI</text>
+
+  <!-- onda de fundo -->
+  <g class="onda-fundo">
+    <path fill="url(#mar1)" opacity="0.85" d="M0 170 Q 53 158 107 170 T 213 170 T 320 170 T 427 170 T 534 170 T 640 170 T 747 170 T 854 170 T 961 170 T 1067 170 T 1174 170 T 1281 170 T 1388 170 T 1494 170 T 1601 170 T 1708 170 V 220 H 0 Z"/>
+  </g>
+
+  <!-- navio -->
+  <g class="barco">
+    <path d="M640 158 L740 158 L728 178 L652 178 Z" fill="#8b5a2b"/>
+    <path d="M640 158 L740 158 L737 163 L643 163 Z" fill="#a8703a"/>
+    <rect x="688" y="78" width="4" height="80" fill="#6b4423"/>
+    <path d="M692 92 Q 728 112 692 146 Z" fill="#ffffff"/>
+    <path d="M688 98 Q 660 116 688 140 Z" fill="#f1ede3"/>
+    <path class="bandeira" d="M692 72 L716 78 L692 84 Z" fill="#e0475b"/>
+  </g>
+
+  <!-- onda da frente -->
+  <g class="onda-frente">
+    <path fill="url(#mar2)" d="M0 186 Q 53 176 107 186 T 213 186 T 320 186 T 427 186 T 534 186 T 640 186 T 747 186 T 854 186 T 961 186 T 1067 186 T 1174 186 T 1281 186 T 1388 186 T 1494 186 T 1601 186 T 1708 186 V 220 H 0 Z"/>
+  </g>
+</svg>

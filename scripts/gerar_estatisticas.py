@@ -35,6 +35,9 @@ query($login: String!) {
       restrictedContributionsCount
       totalPullRequestContributions
       totalIssueContributions
+      contributionCalendar {
+        weeks { contributionDays { date contributionCount } }
+      }
     }
     repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE]) { totalCount }
     repositories(first: 100, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC) {
@@ -148,11 +151,73 @@ def card_linguagens(u):
 """
 
 
+def grafico_atividade(u, dias=31):
+    semanas = u["contributionsCollection"]["contributionCalendar"]["weeks"]
+    todos = [d for s in semanas for d in s["contributionDays"]][-dias:]
+    valores = [d["contributionCount"] for d in todos]
+    maximo = max(valores) or 1
+
+    largura, altura = 854, 240
+    esq, dir_, topo, base = 50, 25, 55, 195
+    passo = (largura - esq - dir_) / (len(valores) - 1)
+    pontos = [(esq + i * passo, base - (base - topo) * v / maximo) for i, v in enumerate(valores)]
+
+    linha = " ".join(f"{x:.1f},{y:.1f}" for x, y in pontos)
+    area = f"M{esq},{base} L" + " L".join(f"{x:.1f},{y:.1f}" for x, y in pontos) + f" L{pontos[-1][0]:.1f},{base} Z"
+    comprimento = sum(
+        ((pontos[i + 1][0] - pontos[i][0]) ** 2 + (pontos[i + 1][1] - pontos[i][1]) ** 2) ** 0.5
+        for i in range(len(pontos) - 1)
+    ) + 10
+
+    grade = []
+    for k in range(5):
+        y = base - (base - topo) * k / 4
+        grade.append(
+            f'<line x1="{esq}" y1="{y:.1f}" x2="{largura - dir_}" y2="{y:.1f}" class="grade"/>'
+            f'<text x="{esq - 10}" y="{y + 4:.1f}" class="eixo" text-anchor="end">{round(maximo * k / 4)}</text>'
+        )
+    rotulos = []
+    for i in range(0, len(todos), 5):
+        dia = todos[i]["date"]
+        rotulos.append(f'<text x="{pontos[i][0]:.1f}" y="{base + 20}" class="eixo" text-anchor="middle">{dia[8:10]}/{dia[5:7]}</text>')
+    bolinhas = "".join(
+        f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.5" class="ponto" style="animation-delay:{1.6 + i * 0.03:.2f}s"/>'
+        for i, (x, y) in enumerate(pontos)
+    )
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{largura}" height="{altura}" viewBox="0 0 {largura} {altura}">
+<defs>
+<linearGradient id="preenche" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="{TITULO}" stop-opacity="0.45"/><stop offset="1" stop-color="{TITULO}" stop-opacity="0"/>
+</linearGradient>
+<style>
+.tt{{font:600 18px 'Segoe UI',Ubuntu,Sans-Serif;fill:{TITULO}}}
+.eixo{{font:400 11px 'Segoe UI',Ubuntu,Sans-Serif;fill:{TEXTO}}}
+.grade{{stroke:#2a2f4a;stroke-width:1}}
+.linha{{fill:none;stroke:{VALOR};stroke-width:2.5;stroke-linejoin:round;stroke-dasharray:{comprimento:.0f};stroke-dashoffset:{comprimento:.0f};animation:desenha 2s ease-out forwards}}
+.area{{fill:url(#preenche);opacity:0;animation:surge 1s ease-out 1.4s forwards}}
+.ponto{{fill:{ICONE};opacity:0;animation:surge .4s ease-out forwards}}
+@keyframes desenha{{to{{stroke-dashoffset:0}}}}
+@keyframes surge{{to{{opacity:1}}}}
+</style>
+</defs>
+<rect width="100%" height="100%" rx="6" fill="{FUNDO}"/>
+<text x="25" y="34" class="tt">Contribuições nos últimos {dias} dias</text>
+{''.join(grade)}
+<path d="{area}" class="area"/>
+<polyline points="{linha}" class="linha"/>
+{bolinhas}
+{''.join(rotulos)}
+</svg>
+"""
+
+
 def main():
     u = consultar()
     PASTA.mkdir(exist_ok=True)
     (PASTA / "stats.svg").write_text(card_estatisticas(u), encoding="utf-8")
     (PASTA / "langs.svg").write_text(card_linguagens(u), encoding="utf-8")
+    (PASTA / "atividade.svg").write_text(grafico_atividade(u), encoding="utf-8")
     print(f"Cards gerados em {datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC")
 
 

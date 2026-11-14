@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/mar.svg" alt="Sheyla Silvana" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/mar.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/mar-dia.svg" />
+    <img src="./assets/mar.svg" alt="Sheyla Silvana" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
@@ -18,6 +22,8 @@ Hoje trabalho na GW e na Unimed, mais no backend: APIs, integrações entre sist
 Também tô fazendo pós em Machine Learning Engineering na FIAP, então os projetos públicos mais recentes aqui são de lá.
 
 Fora do código, sou viciada em One Piece. Pode puxar assunto 🏴‍☠️
+
+<img src="./assets/divisoria.svg" alt="" width="100%" />
 
 ## Onde trabalho / trabalhei
 
@@ -38,11 +44,15 @@ Software house aqui de Teresina. Trabalhei principalmente no Classecon, um siste
 
 <sub>React, TypeScript, React Native, Expo, PHP (CodeIgniter), Laravel, MySQL, AWS, n8n</sub>
 
+<img src="./assets/divisoria.svg" alt="" width="100%" />
+
 ## Projetos da pós (FIAP)
 
 - [**tech-challenge-petr4-lstm**](https://github.com/SheylaSilvana/tech-challenge-petr4-lstm): LSTM pra prever o preço da PETR4, com API em FastAPI, Docker e monitoramento no Prometheus/Grafana.
 - [**tech-challenge-bovespa-pipeline**](https://github.com/SheylaSilvana/tech-challenge-bovespa-pipeline): pipeline de dados da B3 na AWS (S3, Lambda, Glue e Athena).
 - [**tech-challenge-flight-delays**](https://github.com/SheylaSilvana/tech-challenge-flight-delays): modelos pra prever atraso de voos nos EUA, com uns 5,8 milhões de registros.
+
+<img src="./assets/divisoria.svg" alt="" width="100%" />
 
 ## O que eu uso
 
@@ -50,7 +60,12 @@ Software house aqui de Teresina. Trabalhei principalmente no Classecon, um siste
   <img src="https://skillicons.dev/icons?i=php,laravel,java,spring,nodejs,python,fastapi,mysql,postgres,mongodb,redis,react,ts,angular,docker,aws,gitlab,git&perline=9" alt="Tecnologias" />
 </p>
 
-<p>
-  <img height="170" src="./assets/stats.svg" alt="Estatísticas" />
-  <img height="170" src="./assets/langs.svg" alt="Linguagens" />
-</p>
+<img src="./assets/atividade.svg" alt="Contribuições nos últimos 31 dias" width="100%" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cobra.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/cobra-clara.svg" />
+  <img src="./assets/cobra.svg" alt="Cobra comendo as contribuições" width="100%" />
+</picture>
+
+<img src="./assets/rodape.svg" alt="" width="100%" />

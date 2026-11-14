@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="24" viewBox="0 0 854 24">
+  <style>
+    .o1 { animation: corre 6s linear infinite; }
+    .o2 { animation: corre 9s linear infinite reverse; }
+    @keyframes corre { from { transform: translateX(0); } to { transform: translateX(-120px); } }
+  </style>
+  <g class="o2" opacity="0.45">
+    <path fill="none" stroke="#5677d6" stroke-width="2" d="M0 14 q15 -8 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0"/>
+  </g>
+  <g class="o1">
+    <path fill="none" stroke="#7aa2f7" stroke-width="2.5" d="M0 12 q15 -8 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0"/>
+  </g>
+</svg>
