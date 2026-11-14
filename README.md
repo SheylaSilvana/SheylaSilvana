@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Sheyla Silvana" width="100%" />
+  <img src="./assets/mar.svg" alt="Sheyla Silvana" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=3000&pause=1200&color=7AA2F7&center=true&vCenter=true&width=600&lines=Oi!+Eu+sou+a+Sheyla+%F0%9F%91%8B;Navegando+entre+APIs+e+integra%C3%A7%C3%B5es;Ca%C3%A7ando+consulta+lenta+no+Oracle...;...e+esperando+o+pr%C3%B3ximo+epis%C3%B3dio+de+One+Piece+%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F" alt="Oi! Eu sou a Sheyla" />
 </p>
 
 <p align="center">
@@ -7,11 +11,13 @@
   <a href="mailto:sheylasilvana18@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
-Oi! Sou a Sheyla, dev de Teresina (PI).
+Sou dev de Teresina (PI).
 
 Hoje trabalho na GW e na Unimed, mais no backend: APIs, integrações entre sistemas e muito SQL no Oracle. Antes passei uns bons anos fazendo de tudo um pouco (web, app, backend) e peguei gosto por entender o problema até o fim, inclusive conferindo no banco se o que eu fiz funcionou mesmo.
 
 Também tô fazendo pós em Machine Learning Engineering na FIAP, então os projetos públicos mais recentes aqui são de lá.
+
+Fora do código, sou viciada em One Piece. Pode puxar assunto 🏴‍☠️
 
 ## Onde trabalho / trabalhei
 

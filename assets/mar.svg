@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="220" viewBox="0 0 854 220">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1026"/>
+      <stop offset="0.6" stop-color="#1a2a5e"/>
+      <stop offset="1" stop-color="#3b4b8a"/>
+    </linearGradient>
+    <linearGradient id="mar1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d5bb8"/>
+      <stop offset="1" stop-color="#1a2a5e"/>
+    </linearGradient>
+    <linearGradient id="mar2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5677d6"/>
+      <stop offset="1" stop-color="#22336e"/>
+    </linearGradient>
+    <style>
+      .estrela { fill: #ffffff; animation: brilha 3s ease-in-out infinite; }
+      .e2 { animation-delay: 0.8s; } .e3 { animation-delay: 1.6s; } .e4 { animation-delay: 2.3s; }
+      @keyframes brilha { 0%, 100% { opacity: 0.2; } 50% { opacity: 1; } }
+
+      .onda-fundo { animation: corre 14s linear infinite; }
+      .onda-frente { animation: corre 9s linear infinite; }
+      @keyframes corre { from { transform: translateX(0); } to { transform: translateX(-854px); } }
+
+      .barco { animation: balanca 4s ease-in-out infinite; transform-origin: 690px 160px; }
+      @keyframes balanca {
+        0%, 100% { transform: translateY(0) rotate(-3deg); }
+        50% { transform: translateY(5px) rotate(3deg); }
+      }
+      .bandeira { animation: tremula 1.2s ease-in-out infinite; transform-origin: 692px 78px; }
+      @keyframes tremula { 0%, 100% { transform: scaleX(1); } 50% { transform: scaleX(0.8); } }
+
+      .nome { font: 700 46px 'Segoe UI', Ubuntu, sans-serif; fill: #ffffff; animation: aparece 1.2s ease-out both; }
+      .sub { font: 400 17px 'Segoe UI', Ubuntu, sans-serif; fill: #c0caf5; animation: aparece 1.2s ease-out 0.4s both; }
+      @keyframes aparece { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+  </defs>
+
+  <rect width="854" height="220" fill="url(#ceu)"/>
+
+  <!-- lua e estrelas -->
+  <circle cx="790" cy="42" r="16" fill="#f5e6b8" opacity="0.9"/>
+  <circle cx="783" cy="37" r="16" fill="#0f1733"/>
+  <circle class="estrela" cx="80" cy="30" r="1.6"/>
+  <circle class="estrela e2" cx="190" cy="58" r="1.2"/>
+  <circle class="estrela e3" cx="320" cy="22" r="1.5"/>
+  <circle class="estrela e4" cx="560" cy="40" r="1.3"/>
+  <circle class="estrela e2" cx="640" cy="18" r="1.1"/>
+  <circle class="estrela e3" cx="720" cy="70" r="1.4"/>
+  <circle class="estrela" cx="450" cy="62" r="1"/>
+
+  <!-- texto -->
+  <text x="40" y="92" class="nome">Sheyla Silvana</text>
+  <text x="42" y="122" class="sub">backend · mobile · dados &amp; IA · Teresina, PI</text>
+
+  <!-- onda de fundo -->
+  <g class="onda-fundo">
+    <path fill="url(#mar1)" opacity="0.8" d="M0 170 Q 53 158 107 170 T 213 170 T 320 170 T 427 170 T 534 170 T 640 170 T 747 170 T 854 170 T 961 170 T 1067 170 T 1174 170 T 1281 170 T 1388 170 T 1494 170 T 1601 170 T 1708 170 V 220 H 0 Z"/>
+  </g>
+
+  <!-- navio -->
+  <g class="barco">
+    <path d="M640 158 L740 158 L728 178 L652 178 Z" fill="#8b5a2b"/>
+    <path d="M640 158 L740 158 L737 163 L643 163 Z" fill="#a8703a"/>
+    <rect x="688" y="78" width="4" height="80" fill="#6b4423"/>
+    <path d="M692 92 Q 728 112 692 146 Z" fill="#f2efe6"/>
+    <path d="M688 98 Q 660 116 688 140 Z" fill="#e4dfd2"/>
+    <path class="bandeira" d="M692 72 L716 78 L692 84 Z" fill="#e0475b"/>
+  </g>
+
+  <!-- onda da frente -->
+  <g class="onda-frente">
+    <path fill="url(#mar2)" d="M0 186 Q 53 176 107 186 T 213 186 T 320 186 T 427 186 T 534 186 T 640 186 T 747 186 T 854 186 T 961 186 T 1067 186 T 1174 186 T 1281 186 T 1388 186 T 1494 186 T 1601 186 T 1708 186 V 220 H 0 Z"/>
+  </g>
+</svg>
