@@ -90,21 +90,21 @@ Software house de Teresina/PI com produtos SaaS próprios. Com atuação full st
   <tr>
     <td width="33%" valign="top">
       <h3><a href="https://github.com/SheylaSilvana/tech-challenge-petr4-lstm">📈 PETR4 LSTM</a></h3>
-      Modelo LSTM para prever o preço da PETR4, servido com FastAPI, Docker e monitoramento com Prometheus.
+      Modelo LSTM para prever o preço da PETR4, servido com FastAPI e Docker e monitorado com Prometheus e Grafana.
       <br><br>
-      <code>Python</code> <code>FastAPI</code> <code>Docker</code> <code>Prometheus</code>
+      <code>Python</code> <code>TensorFlow</code> <code>FastAPI</code> <code>Docker</code> <code>Prometheus</code>
     </td>
     <td width="33%" valign="top">
       <h3><a href="https://github.com/SheylaSilvana/tech-challenge-bovespa-pipeline">🏦 Pipeline Bovespa</a></h3>
-      Pipeline de dados da B3 (Bovespa) em Python.
+      Pipeline de dados da B3 na AWS: coleta com web scraping, ingestão no S3, ETL com Glue disparado por Lambda e consultas no Athena.
       <br><br>
-      <code>Python</code> <code>Dados</code>
+      <code>Python</code> <code>AWS S3</code> <code>Lambda</code> <code>Glue</code> <code>Athena</code>
     </td>
     <td width="33%" valign="top">
       <h3><a href="https://github.com/SheylaSilvana/tech-challenge-flight-delays">✈️ Atrasos de voos</a></h3>
-      Análise e modelagem de atrasos de voos.
+      Pipeline de ML para prever atrasos de cerca de 5,8 milhões de voos nos EUA, com classificação, regressão e clusterização.
       <br><br>
-      <code>Python</code> <code>Jupyter</code> <code>ML</code>
+      <code>Python</code> <code>scikit-learn</code> <code>Jupyter</code>
     </td>
   </tr>
 </table>
