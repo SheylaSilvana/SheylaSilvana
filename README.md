@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="./assets/banner.svg" alt="Sheyla Silvana" width="100%" />
+  <img src="./assets/header.svg" alt="Sheyla Silvana" width="100%" />
 </p>
 
 <!-- Texto animado -->
