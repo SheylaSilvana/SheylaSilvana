@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/kprByMkudw8s8/giphy.gif" alt="Thousand Sunny navegando" width="100%" />
+  <img src="https://media.giphy.com/media/kprByMkudw8s8/giphy.gif" alt="Thousand Sunny navegando" width="500" />
 </p>
 
 <h1 align="center">Sheyla Silvana</h1>
@@ -61,11 +61,5 @@ Software house aqui de Teresina. Trabalhei principalmente no Classecon, um siste
 <p>
   <img src="https://skillicons.dev/icons?i=php,laravel,java,spring,nodejs,python,fastapi,mysql,postgres,mongodb,redis,react,ts,angular,docker,aws,gitlab,git&perline=9" alt="Tecnologias" />
 </p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/cobra.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/cobra-clara.svg" />
-  <img src="./assets/cobra.svg" alt="Cobra comendo as contribuições" width="100%" />
-</picture>
 
 <img src="./assets/rodape.svg" alt="" width="100%" />
