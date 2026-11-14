@@ -1,6 +1,6 @@
 # Olá, eu sou a Sheyla 👋
 
-Desenvolvedora **Sênior na GW** e **Plena na Unimed**, com foco em backend, integrações entre sistemas e dados. Atualmente fazendo pós em **Machine Learning Engineering na FIAP**.
+Desenvolvedora de software com foco em backend, integrações entre sistemas e dados. Atualmente trabalho na GW e na Unimed e faço pós em Machine Learning Engineering na FIAP.
 
 Gosto de construir sistemas que funcionam bem em produção: integrações confiáveis, rotinas que se recuperam de falhas e consultas rápidas, sempre medindo o resultado antes de dar o trabalho por concluído.
 
@@ -17,12 +17,14 @@ Desenvolvo APIs de backend para uma operadora de planos de saúde, integrando o 
 - Construí rotinas automáticas de envio, conciliação e baixa de títulos financeiros, com histórico de cada envio e tratamento de falhas e reenvios.
 - Investiguei e corrigi a qualidade dos dados entre sistemas e acelerei consultas pesadas no Oracle, validando os ganhos direto no banco.
 
-### Classetech — Desenvolvedora Full Stack *(2024 – out/2026)*
-Software house de Teresina/PI com produtos SaaS próprios. Atuei principalmente no **Classecon**, plataforma de gestão de condomínios usada por administradoras (portal web, app do condômino e backend), e também no **Classeloc** (vistoria de imóveis) e no **Classelog** (logística de entregas).
+### Classetech — Desenvolvedora de Aplicativos Móveis *(abr/2024 – out/2026)*
+Software house de Teresina/PI com produtos SaaS próprios. Com atuação full stack (web, mobile, backend, banco e automação com IA), trabalhei principalmente no **Classecon**, plataforma de gestão de condomínios usada por administradoras, e também no **Classeloc** (vistoria de imóveis com fotos, mapa e assinatura digital) e no **Classelog** (logística de entregas). Foram mais de 290 commits em 10 repositórios.
 
 - Desenvolvi sozinha o portal web do Classecon, do layout à integração com a API, com perfis para síndico, condômino, administradora e funcionário.
 - Implementei fluxos de ponta a ponta (frontend, backend e banco), como assembleia virtual com votação, processo de infração ao regimento, controle de acesso de pedestres e veículos e monitoramento de reservatórios com alertas.
-- Integrei a **LYA**, assistente de IA com RAG no WhatsApp orquestrada em n8n, e mantive os apps mobile atualizados na App Store e no Google Play.
+- Integrei a **LYA**, assistente de IA com RAG no WhatsApp orquestrada em n8n.
+- Criei a base **white label** que gera apps de marcas diferentes a partir de um único código.
+- Mantive os apps mobile atualizados na App Store e no Google Play, com upgrades do Expo e adequação ao Android 16.
 
 ## 🤖 Projetos de Machine Learning (FIAP PosTech)
 
