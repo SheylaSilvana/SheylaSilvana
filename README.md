@@ -1,10 +1,8 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/mar.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/mar-dia.svg" />
-    <img src="./assets/mar.svg" alt="Sheyla Silvana" width="100%" />
-  </picture>
+  <img src="https://media.giphy.com/media/kprByMkudw8s8/giphy.gif" alt="Thousand Sunny navegando" width="100%" />
 </p>
+
+<h1 align="center">Sheyla Silvana</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=3000&pause=1200&color=7AA2F7&center=true&vCenter=true&width=600&lines=Oi!+Eu+sou+a+Sheyla+%F0%9F%91%8B;Navegando+entre+APIs+e+integra%C3%A7%C3%B5es;Ca%C3%A7ando+consulta+lenta+no+Oracle...;...e+esperando+o+pr%C3%B3ximo+epis%C3%B3dio+de+One+Piece+%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F" alt="Oi! Eu sou a Sheyla" />
